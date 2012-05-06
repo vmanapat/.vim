@@ -7,3 +7,9 @@
 [submodule "bundle/command-t"]
 	path = bundle/command-t
 	url = https://github.com/wincent/Command-T.git
+[submodule "bundle/brackets"]
+	path = bundle/brackets
+	url = https://github.com/vim-scripts/Highlight-UnMatched-Brackets.git
+[submodule "bundle/nerdcommenter"]
+	path = bundle/nerdcommenter
+	url = https://github.com/scrooloose/nerdcommenter.git
