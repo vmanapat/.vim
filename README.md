@@ -41,9 +41,11 @@ Installing Plugins
     $ ln -s './.vim/.vimrc' ~/.vimrc
 
 To add any further submodules just run:
+
     $ git submodule add [git url] bundle/[plugin name]
 
 Then run:
+
     $ git submodule init
     $ git submodule update
     $ git submodule foreach git submodule init
