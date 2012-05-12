@@ -81,6 +81,10 @@ set showmatch " Matching delimiters maybe?
 syntax on
 set colorcolumn=+1   "OVER THE LINE!  highlight column after 'textwidth' 
 
+" Ack
+
+let g:ackprg="ack-grep -H --nocolor --nogroup --column"
+
 " Settings for Pymode https://github.com/klen/python-mode
 
 " Show Documentation
